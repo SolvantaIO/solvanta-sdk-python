@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "solvanta"
+version = "1.0.0"
+description = "Official Python SDK for the Solvanta solver API"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = ["httpx>=0.24"]
+keywords = ["solvanta", "captcha", "solver", "sdk"]
+
+[project.urls]
+Homepage = "https://solvanta.io"
+Documentation = "https://solvanta.io/docs"
+Repository = "https://github.com/SolvantaIO/solvanta-sdk-python"

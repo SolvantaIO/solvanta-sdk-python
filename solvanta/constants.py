@@ -1,0 +1,16 @@
+"""Task name constants for all registered Solvanta solvers."""
+
+RECAPTCHA_V2 = "ReCaptchaV2Task"
+RECAPTCHA_V2_ENTERPRISE = "ReCaptchaV2EnterpriseTask"
+RECAPTCHA_V3 = "ReCaptchaV3Task"
+RECAPTCHA_V3_ENTERPRISE = "ReCaptchaV3EnterpriseTask"
+CLOUDFLARE = "CloudflareTask"
+ARKOSE = "ArkoseTask"
+FORTER = "ForterTask"
+NUDATA = "NuDataTask"
+PXM = "PxmTask"
+THREATMETRIX = "ThreatMetrixTask"
+UE_MSM = "UeMsmTask"
+METADATA1 = "Metadata1Task"
+
+DEFAULT_BASE_URL = "https://backend.solvanta.io"
